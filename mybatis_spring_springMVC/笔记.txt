@@ -1,0 +1,38 @@
+ssm框架： spring+springMVC+mybatis
+
+在企业中，ssm框架大量使用。
+
+问：怎样搭建ssm框架？
+答：无非就是之前所学的spring整合mybatis的只是，加上springMVC的只是，将之拼凑在一起即可。
+
+
+在ssm框架下，完成这么一个场景
+
+验证注册注册页面的用户名是否存在：
+
+一、导入ssm相关的jar包
+二、注册页面
+三、web.xml中配置springMVC的前端控制器
+四、在spring-mvc.xml中开启扫描
+五、controller控制组件
+六、调用模型层--service层：
+						业务层接口RegisterInterface
+						业务层接口的实现类RegisterInterfaceImpl
+七、调用dao层：
+			dao层的接口（mapper接口）
+			实体类
+			映射文件
+			spring容器整合mybatis的主配置文件		
+请求流程：
+	页面发出请求URL → web.xml → 前端控制器与handlemapping → controller组件 → service层 
+																				↓
+																			dao层操作数据库
+																				↓
+	    前端页面                  ←        视图解析器           ←     controller层         ←    结果返回service层
+																			
+																							
+						
+						
+						
+						
+						
