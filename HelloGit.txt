@@ -1,1 +1,3 @@
-today . we start git
+today . we start git.
+
+git is a version control;
