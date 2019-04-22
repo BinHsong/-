@@ -1,3 +1,5 @@
 today . we start git.
 
 git is a version control;
+
+this is a repository
